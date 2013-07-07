@@ -1,0 +1,16 @@
+<%= @vis.to_svg %>
+
+<h1>Our <%= @keyword %> New Product...</h1>
+<p>... is coming soon and you should really give it a go</p>
+<p>Register your email to find out more</p>
+
+<form action="/tell_me_more" method="post">
+  <input type="hidden" name="keyword" value="<%= @keyword %>" />
+  <input type="email" name="email" placeholder="Enter you email" />
+  <input type="submit" name="submit_button" value="Tell me more!" />
+</form>
+
+<p> <%= @graph %> </p>
+<%= @graph %>
+
+
