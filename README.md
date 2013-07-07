@@ -11,7 +11,9 @@ $ cd graph
 
 $ bundle
 
-$ ruby graph.rb
+$ ruby app.rb
+
+Then in your fav browser navigate to http://localhost:4567
 
 
 
